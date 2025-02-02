@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.quiz-start {
+  background: url("../../public/assets/bg.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  text-align: center;
+  background: #70e000;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.start-btn {
+  background: #ff9800;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}

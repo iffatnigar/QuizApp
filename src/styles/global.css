@@ -1,0 +1,71 @@
+body {
+  background: url("../../public/assets/bg.jpg") center/cover no-repeat fixed;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.quiz-container,
+.summary-container,
+.leaderboard-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 12px;
+  margin: auto;
+  width: 60%;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); 
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.trophy-icon {
+  color: gold;
+  margin-right: 8px;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
+
+.timer {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.skip-btn,
+.home-btn,
+.leaderboard-btn {
+  background: linear-gradient(90deg, #ff7700, #ffcc00);
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.skip-btn:hover,
+.home-btn:hover,
+.leaderboard-btn:hover {
+  background: linear-gradient(90deg, #ffcc00, #ff7700);
+  transform: scale(1.05);
+}
